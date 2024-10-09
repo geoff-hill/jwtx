@@ -1,0 +1,10 @@
+[package]
+name = "jwtx"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+toml = "0.8.19"
+serde = { version = "1.0.130", features = ["derive"] }
+serde_yaml = "0.9.34"
+type-cli = "0.0.3"
