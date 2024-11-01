@@ -1,0 +1,15 @@
+[environments.dev]
+iss = "https://dev.com"
+
+[environments.dev.tokens.developer_client.ClientCredentials]
+client_id = "client_id"
+client_secret = "client_secret"
+
+[environments.dev.tokens.standard_user.UserPassword]
+user_name = "user_name"
+password = "password"
+
+[environments.syst]
+iss = "https://dev.com"
+
+[environments.syst.tokens]

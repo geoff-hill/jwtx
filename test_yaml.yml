@@ -1,13 +1,13 @@
 environments:
-- name: dev
-  iss: https://dev.com
-  tokens:
-  - token_type: access
-    oauth_flow: ClientCredentialsFlow
-    client_credentials:
-      client_id: client_id
-      client_secret: client_secret
-    user_password: null
-- name: syst
-  iss: https://dev.com
-  tokens: []
+  syst:
+    iss: https://dev.com
+    tokens: {}
+  dev:
+    iss: https://dev.com
+    tokens:
+      standard_user: !UserPassword
+        user_name: user_name
+        password: password
+      developer_client: !ClientCredentials
+        client_id: client_id
+        client_secret: client_secret

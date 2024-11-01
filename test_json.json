@@ -1,0 +1,25 @@
+{
+    "environments": {
+        "syst": {
+            "iss": "https://dev.com",
+            "tokens": {}
+        },
+        "dev": {
+            "iss": "https://dev.com",
+            "tokens": {
+                "developer_client": {
+                    "ClientCredentials": {
+                        "client_id": "client_id",
+                        "client_secret": "client_secret"
+                    }
+                },
+                "standard_user": {
+                    "UserPassword": {
+                        "user_name": "user_name",
+                        "password": "password"
+                    }
+                }
+            }
+        }
+    }
+}
